@@ -4,7 +4,7 @@ const Header = () => {
   return (
     <>
       <header>
-        <img src="src\assets\Globe.svg" alt="" />
+        <img src="src\assets\Globe.svg" alt="globe-icon" />
         <span>my travel journal.</span>
       </header>
     </>

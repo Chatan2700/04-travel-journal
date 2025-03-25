@@ -1,29 +1,122 @@
 body {
-  margin: 0;
+  margin-top: 40px;
   font-family:'Inter',sans-serif;
   background: #e5e5e5;
   color: white;
   /* Center the React card on the screen */
-  /* display: flex;
+  display: flex;
   justify-content: center;
-  align-items: center;
-  height: 100vh; */
+  height: 100vh;
 }
 
-header {
+/* Container Styling */
+.container {
+  background-color: #FFFFFF;
+  display: flex;
+  flex-direction: column;
   width: 550px;
+  box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+
+}
+
+.travel-entry {
+  display: flex;
+  gap: 0.1rem;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 40px 0;
+  height: 168px;
+}
+
+.travel-entry > img {
+  width: 125px;
+  height: 100%;
+  border-radius: 5px;
+  object-fit: cover;
+}
+
+.travel-entry > section {
+  color: #2B283A; 
+  height: 100%;
+}
+
+.travel-entry > section > img{
+  width: 7px;
+  height: 9.5px;
+  margin-right: 7px;
+  margin-top: 15px;
+}
+
+.travel-entry > section > span{
+  width: 40px;
+  height: 10px;
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 1;
+  letter-spacing: 0.1rem;
+  margin-right: 7px;
+
+}
+
+.travel-entry > section > a{
+  color: #918E9B;
+  width: 105px;
+  height: 13px;
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 1;
+}
+
+.travel-entry > section > h1 {
+  width: 326px;
+  height:30px;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 1;
+  margin-top: 0.3125rem;
+  margin-bottom: 0.8rem;
+}
+
+.date {
+  width: 319px;
+  height:11px;
+  font-weight: 700;
+  font-size: 10.24px;
+  line-height: 1;
+}
+
+.info {
+  max-width: 326px;
+  height:40px;
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 150%;
+}
+
+
+/* header Styling */
+header {
+  width: 100%;
   height: 55px;
   background-color: #F55A5A;
   display: flex;
   justify-content: center;
   align-items: center;
+  letter-spacing: -1px;
+  border-radius: 10px 10px 0px 0px;
+
 }
 
 header > img {
-  margin-right: 5px;
+  margin-right: 7px;
   width: 24px;
   height: 24px;
 }
 
+header > span {
+  font-weight: 500;
+}
 
 
+/* Responsivness */
