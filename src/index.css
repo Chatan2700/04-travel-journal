@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  font-family:'Inter',sans-serif;
+  background: #e5e5e5;
+  color: white;
+  /* Center the React card on the screen */
+  /* display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; */
+}
+
+header {
+  width: 550px;
+  height: 55px;
+  background-color: #F55A5A;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header > img {
+  margin-right: 5px;
+  width: 24px;
+  height: 24px;
+}
+
+
+
